@@ -12,7 +12,7 @@ body {
     font-size: 100%;
     width: 800px;
     margin: 0 auto;
-    border: 3px solid #BE93D4;
+    border: 3px solid #be93d4;
 }
 
 a:focus a:hover{
@@ -25,11 +25,38 @@ header{
 }
 
 header h2{
-    font-size: 135%;
+    font-size: 175%;
     color: #570861;
 }
 
 header img {
     float: left;
     padding: 0 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    background-color: #be93d4;
+    color: #570861;
+    font-weight: bold;
+}
+#nav_menu ul{
+    list-style: none;
+    position: relative;
+}
+#nav_menu ul li{
+    float: left;
 }
