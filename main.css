@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: lavender;
+}
+
+body {
+    font-family: Arial, Arial, Helvetica, c;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #BE93D4;
+}
+
+a:focus a:hover{
+    font-style: italic;
+}
+
+header{
+    padding: 1.5em 0 2em 0;
+    background-color: #efbbff;
+}
+
+header h2{
+    font-size: 135%;
+    color: #570861;
+}
+
+header img {
+    float: left;
+    padding: 0 30px;
+}
