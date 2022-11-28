@@ -9,7 +9,7 @@ html{
 
 body {
     font-family: Arial, Arial, Helvetica, c;
-    font-size: 100%;
+    font-size: 180%;
     width: 800px;
     margin: 0 auto;
     border: 3px solid #be93d4;
@@ -20,8 +20,8 @@ a:focus a:hover{
 }
 
 header{
-    padding: 1.5em 0 2em 0;
-    background-color: #efbbff;
+    padding: 3em 0 2em 0;
+    background-color: #fff2ff;
 }
 
 header h2{
@@ -34,9 +34,7 @@ header img {
     padding: 0 30px;
 }
 
-nav{
-    display: block;
-}
+
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -47,7 +45,7 @@ nav li{
 }
 nav li a{
     display: block;
-    width: 160px;
+    width: 150px;
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
