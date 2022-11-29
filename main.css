@@ -66,6 +66,10 @@ nav li a{
 }
 main{
     background-color: lavender;
+    font-family: Garamond, serif;
+    background-color: lavender;
+    float: left;
+    padding: 2em 0 2em 0;
 }
 
 main img{
@@ -75,12 +79,6 @@ main img{
     padding: 5em 3em 1em 2em;
 }
 
-main p{
-    font-family: Garamond, serif;
-    background-color: lavender;
-    float: left;
-    padding: 2em 0 2em 0;
-}
 
 footer {
     background-color: #be93d4;
