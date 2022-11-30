@@ -1,8 +1,25 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+* {
+    box-sizing: border-box;
+}
+.textAndInput{
+    display: block;
+    position: center;
+    margin: 0 auto;
+    padding: 3em 2em 3em 2em;
+    border: 3px solid purple;
+    color: purple;
+    font-size: xx-large;
+    background-color: #fff2ff;
+
+}
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 75%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -16,14 +33,38 @@ input[type=submit] {
     background-color: purple;
     color: white;
     padding: 12px 20px;
+    float: left;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    height: 300px;
+    width: 800px;
 }
 
 input[type=submit]:hover {
     background-color: #be93d4;
 }
+
+.submit{
+    background-color: #570861;
+    color:white;
+}
+
+.submit:hover{
+    background-color: #b491c8;
+}
+
+#subject{
+    height: 300px;
+    width: 800px;
+}
+
+#aqcc{
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 
 nav ul{
     float: left;
@@ -50,7 +91,7 @@ nav li a{
 
 
 .logo-image{
-    font-size: 18px;
+    font-size: 10px;
 }
 
 footer {

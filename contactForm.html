@@ -21,7 +21,7 @@
                     col-12">
 
                 <!-- Brand -->
-                <a class="navbar-brand" href="index.html"><div>
+                <a class="navbar-brand" href="contactForm.html"><div>
                     <img src="images/logo.png" alt="logo" class="logo-image"> Nickole's Cat Corner</div></a>
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button"
@@ -42,18 +42,18 @@
                             <a class="nav-link" href="behaviorsAndLifestyle.html">Behaviors + Lifestyle</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/gallery.html">Gallery</a>
+                            <a class="nav-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/adoptions.html"> Adoption Sources</a>
+                            <a class="nav-link" href="adoptions.html"> Adoption Sources</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="current" href="pages/contactForm.html">Contact Form</a>
+                            <a class="nav-link" id="current" href="contactForm.html">Contact Form</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <form action="">
+            <form class="textAndInput" action="">
                 <div class="form-group">
                     <label for="firstname">First Name:</label>
                     <input type="text" class="form-control" id="firstname"
@@ -69,9 +69,11 @@
                     <input type="email" class="form-control" id="email"
                            placeholder="Enter email" name="email">
                 </div>
-                <label for="subject">Any Questions, Comments or Concerns</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px; width:300px"></textarea>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="form-group">
+                <label for="subject" id="aqcc">Any Questions, Comments or Concerns</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+                </div>
+                <button type="submit" class="submit">Submit</button>
             </form>
             </div>
     </div>
