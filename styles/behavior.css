@@ -50,15 +50,16 @@ main{
 .card-title{
     font-size:60px;
 }
+
 footer {
     background-color: #be93d4;
-    clear: both;
-
 }
-footer p {
+
+.copyright{
+    font-size: 24px;
     text-align: center;
-    color: #570861;
-    padding: 1em 0;
+    color: white;
+
 }
 
 #current{
