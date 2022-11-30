@@ -47,7 +47,9 @@ main{
     max-width: 800px;
     max-height: 800px;
 }
-
+.card-title{
+    font-size:60px;
+}
 footer {
     background-color: #be93d4;
     clear: both;
