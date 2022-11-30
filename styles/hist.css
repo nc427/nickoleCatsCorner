@@ -28,11 +28,25 @@ main{
     padding: 2em 0 2em 0;
 }
 
-.float-right{
-    float: right !important;
+.card{
     width: 100vw;
 }
-
+.card2{
+    width: 100vw;
+}
+.col-right{
+    float: right;
+    margin: 0 2em 0 5em;
+    padding: 0;
+}
+.snugCat{
+    max-width: 800px;
+    max-height: 800px;
+}
+#pic2{
+    max-width: 800px;
+    max-height: 800px;
+}
 .logo-image{
     font-size: 18px;
 }
