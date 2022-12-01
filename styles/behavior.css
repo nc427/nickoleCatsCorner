@@ -30,9 +30,14 @@ main{
 
 .card{
     width: 100vw;
+    padding-right: 5em;
+
 }
 .card2{
     width: 100vw;
+}
+.card-list1{
+    font-size: 26px;
 }
 .col-right{
     float: right;
@@ -50,7 +55,10 @@ main{
 .card-title{
     font-size:60px;
 }
-
+.card-text1{
+    margin:0 auto;
+    font-size: 30px;
+}
 footer {
     background-color: #be93d4;
 }
