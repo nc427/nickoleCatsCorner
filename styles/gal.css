@@ -57,9 +57,9 @@
 }
 
 /* Container for image text */
-.caption-container {
+.carousel-caption{
     text-align: center;
-    background-color: #222;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
     padding: 2px 16px;
     color: white;
 }
@@ -121,13 +121,13 @@ nav li a{
 
 footer {
     background-color: #be93d4;
-    clear: both;
-
 }
-footer p {
+
+.copyright{
+    font-size: 24px;
     text-align: center;
-    color: #570861;
-    padding: 1em 0;
+    color: white;
+
 }
 
 #current{

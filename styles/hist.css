@@ -58,14 +58,7 @@ main{
     margin: 0 2em 0 5em;
     padding: 0;
 }
-.snugCat{
-    max-width: 800px;
-    max-height: 800px;
-}
-#pic2{
-    max-width: 800px;
-    max-height: 800px;
-}
+
 .card-title{
     font-size:60px;
 }
