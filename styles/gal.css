@@ -63,6 +63,12 @@
     padding: 2px 16px;
     color: white;
 }
+.carousel-caption h3{
+    font-size: 36px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
 
 .row:after {
     content: "";
